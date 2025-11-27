@@ -1,5 +1,5 @@
 [project]
-name = "guid47calib"
+name = "guiD47calib"
 version = "0.1.0"
 description = "GUI for D47calib"
 readme = "readme.md"
@@ -10,7 +10,7 @@ requires-python = ">=3.12"
 dependencies = []
 
 [project.scripts]
-guiD47calib = "guid47calib:main"
+guiD47calib = "guiD47calib:main"
 
 [build-system]
 requires = ["uv_build>=0.9.0,<0.10.0"]
