@@ -1,6 +1,6 @@
 [project]
 name = "guiD47calib"
-version = "0.1.0"
+version = "0.1.1"
 description = "GUI for D47calib"
 readme = "readme.md"
 authors = [
