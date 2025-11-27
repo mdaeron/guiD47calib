@@ -1,19 +1,21 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
 [project]
 name = "guiD47calib"
-version = "0.1.1"
-description = "GUI for D47calib"
+authors = [{name = "Mathieu Daëron", email = "daeron@lsce.ipsl.fr"}]
 readme = "readme.md"
-authors = [
-    { name = "mdaeron", email = "mathieu@daeron.fr" }
-]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+]
+
+[project.urls]
+Home = "https://github.com/mdaeron/guiD47calib"
+Documentation = "https://mdaeron.github.io/guiD47calib"
 
 [project.scripts]
 guiD47calib = "guiD47calib:main"
-
-[build-system]
-# requires = ["uv_build>=0.9.0,<0.10.0"]
-# build-backend = "uv_build"
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
