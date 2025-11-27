@@ -1,0 +1,17 @@
+[project]
+name = "guiD47calib"
+version = "0.1.0"
+description = "GUI for D47calib"
+readme = "readme.md"
+authors = [
+    { name = "mdaeron", email = "mathieu@daeron.fr" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+guid47calib = "guiD47calib:main"
+
+[build-system]
+requires = ["uv_build>=0.9.0,<0.10.0"]
+build-backend = "uv_build"
