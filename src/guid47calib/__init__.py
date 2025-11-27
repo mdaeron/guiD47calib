@@ -6,4 +6,4 @@ __date__      = '2025-11-27'
 __version__ = '0.1.1'
 
 def main() -> None:
-    print("Hello from guiD47calib!")
+    print(f"Hello from guiD47calib v.{__version__}!")
