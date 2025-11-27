@@ -1,2 +1,2 @@
 def main() -> None:
-    print("Hello from guid47calib!")
+    print("Hello from guiD47calib!")
